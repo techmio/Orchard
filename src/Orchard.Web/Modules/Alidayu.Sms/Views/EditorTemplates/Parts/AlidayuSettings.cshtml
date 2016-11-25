@@ -1,0 +1,31 @@
+﻿@model Alidayu.Sms.Models.AlidayuSettingPart
+
+<fieldset>
+    <legend>@T("Alidayu Settings")</legend>
+    <div>
+        <div>
+            @Html.LabelFor(m => m.SmsFreeSignName, T("SmsFreeSignName"))
+            @Html.EditorFor(m => m.SmsFreeSignName)
+            @Html.ValidationMessage("SmsFreeSignName", "*")
+            <span class="hint">@T("菜篮知")</span>
+        </div>
+        <div>
+            @Html.LabelFor(m => m.SmsParam, T("SmsParam"))
+            @Html.EditorFor(m => m.SmsParam)
+            @Html.ValidationMessage("SmsParam", "*")
+            <span class="hint">@T("{code:'{123456}'}")</span>
+        </div>
+        <div>
+            @Html.LabelFor(m => m.RecNum, T("RecNum"))
+            @Html.EditorFor(m => m.RecNum)
+            @Html.ValidationMessage("RecNum", "*")
+            <span class="hint">@T("13128818478")</span>
+        </div>
+        <div>
+            @Html.LabelFor(m => m.SmsTemplateCode, T("SmsTemplateCode"))
+            @Html.EditorFor(m => m.SmsTemplateCode)
+            @Html.ValidationMessage("SmsTemplateCode", "*")
+            <span class="hint">@T("SMS_16225170")</span>
+        </div>
+    </div>
+</fieldset>

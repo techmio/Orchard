@@ -1,0 +1,6 @@
+﻿@model Contrib.Sms.Models.MobilePart
+<fieldset>
+    <div class="editor-label">@Html.LabelFor(x => x.MobileNumber, T("Mobile Number"))</div>
+    <div class="editor-field">@Html.EditorFor(x => x.MobileNumber)</div>
+    <span class="hint">@T("Allows the user to be the target of an SMS message. Pefix number with country code. e.g. +447977123456")</span>
+</fieldset>

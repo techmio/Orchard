@@ -1,0 +1,13 @@
+﻿Name: Alidayu Messaging
+AntiForgery: enabled
+Author: moyongteng
+Website: http://www.moyongteng.cn
+Version: 1.5.1
+OrchardVersion: 1.5.1
+Description:  Alidayu SMS messaging.
+Features:
+    Contrib.Sms:
+        Name: Alidayu Messaging
+        FeatureDescription: SMS Messaging services.
+        Category: Messaging
+        Dependencies: Orchard.Messaging, Orchard.Users
