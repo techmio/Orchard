@@ -112,6 +112,7 @@
     <Compile Include="Handlers\TwilioSettingsPartHandler.cs" />
     <Compile Include="Migrations.cs" />
     <Compile Include="Models\AlidayuSettingsPart.cs" />
+    <Compile Include="Models\AlidayuSettingsPartRecord.cs" />
     <Compile Include="Models\MobilePart.cs" />
     <Compile Include="Models\MobilePartRecord.cs" />
     <Compile Include="Models\TwilioSettingsPart.cs" />
