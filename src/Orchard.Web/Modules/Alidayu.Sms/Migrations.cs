@@ -23,12 +23,13 @@ namespace Alidayu.Sms
                     .WithPart("MobilePart")
                 );
 
-            SchemaBuilder.CreateTable("TwilioSettingsPartRecord",
+            SchemaBuilder.CreateTable("AlidayuSettingsPartRecord",
                 table => table
                     .ContentPartRecord()
-                    .Column<string>("AccountSID")
-                    .Column<string>("AuthToken")
-                    .Column<string>("FromNumber")
+                    .Column<string>("SmsFreeSignName")
+                    .Column<string>("SmsParam")
+                    .Column<string>("RecNum")
+                    .Column<string>("SmsTemplateCode")
                 );
 
             return 1;

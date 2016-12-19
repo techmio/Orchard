@@ -6,7 +6,7 @@ Version: 1.5.1
 OrchardVersion: 1.5.1
 Description:  Alidayu SMS messaging.
 Features:
-    Contrib.Sms:
+    Alidayu.Sms:
         Name: Alidayu Messaging
         FeatureDescription: SMS Messaging services.
         Category: Messaging
